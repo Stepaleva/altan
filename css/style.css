@@ -505,7 +505,7 @@ h1, h2, h3, h4, h5,
     list-style: none;
     position: relative; }
     .site-mobile-menu .site-nav-wrap a {
-      padding: 0;
+      padding: 10px 0 0 0;
       display: block;
       position: relative;
       color: #212529; }
@@ -1140,5 +1140,8 @@ h1, h2, h3, h4, h5,
 @media screen and (max-width: 992px){
   .intro-section h1{
     font-size: 2.2rem
+  }
+  .owl-carousel{
+    width: auto;
   }
 }
