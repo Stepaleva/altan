@@ -1156,6 +1156,13 @@ h1, h2, h3, h4, h5,
   padding-left: 0;
   color: #212529
 }
+.map{
+  margin: 0 10px 30px 10px;
+  border: 2px solid #dee3e4;
+}
+.leaflet-popup-content{
+  margin-left: 0;
+}
 /*медиа запросы*/
 @media screen and (max-width: 992px){
   .intro-section h1{
